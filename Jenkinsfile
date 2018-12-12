@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('One') {
                 steps {
-                        echo 'Hi, this is Zulaikha from edureka'
+                        echo 'Hi, this is Puneet from edureka'
 			
                 }
         }
@@ -33,7 +33,7 @@ pipeline {
                         stage('Integration test') {
                         agent {
                                 docker {
-                                        reuseNode false
+                                        reuseNode true
 					image 'ubuntu'
                                         }
 			}
