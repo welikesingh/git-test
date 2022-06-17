@@ -4,17 +4,17 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'DevOps Basics: Welcome to devops Basic Course'
+                echo '*****DevOps Basics: Welcome to devops Basic Course'
             }
         }
         stage('Test') {
             steps {
-                echo 'Jenkins: Welome to Jenkins'
+                echo '*******Jenkins: Welome to Jenkins'
             }
         }
         stage('Deploy') {
             steps {
-                echo 'Docker....Welcome to Docker'
+                echo '******Docker....Welcome to Docker'
             }
         }
 	stage('Postdeploy') {
